@@ -35,7 +35,7 @@ function sectionsFor(page: Page, site: 'flowfest' | 'luma'): Record<string, Loca
   }
 
   return {
-    cover: page.getByRole('img', { name: /cover image for flowfest/i }).first(),
+    cover: page.locator('.cover-image-wrapper').getByRole('img', { name: /cover image for flowfest/i }),
     hosts: contentCard(page, 'Hosted By', '[data-visual-section="hosts"]'),
     attendance: contentCard(page, '120 Went', '[data-visual-section="attendance"]'),
     title: page.getByRole('heading', { level: 1, name: /FlowFest ['’]25/ }),

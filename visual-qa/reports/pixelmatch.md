@@ -1,6 +1,6 @@
 # Pixelmatch results
 
-Compared 94 pairs. 55 were below 2%.
+Compared 94 pairs. 58 were below 2%.
 
 Pixelmatch threshold 0.1. Antialiasing differences are included. Red marks changed shared pixels. Purple marks pixels without a counterpart. Unpaired areas count toward the mismatch percentage. Exact differences count any RGBA value that differs, plus unpaired pixels.
 
@@ -63,7 +63,7 @@ Pixelmatch threshold 0.1. Antialiasing differences are included. Red marks chang
 | luma/1440x900/full-page.png | 1440 × 1271 | 1440 × 1271 | 175,057 | 1,350,897 | 0 | 9.5647% |
 | luma/1440x900/section-about.png | 567 × 315 | 567 × 315 | 5,871 | 170,052 | 0 | 3.2871% |
 | luma/1440x900/section-attendance.png | 331 × 100 | 331 × 99 | 3,058 | 33,074 | 331 | 9.2387% |
-| luma/1440x900/section-cover.png | 333 × 332 | 331 × 330 | 58,620 | 110,401 | 1,326 | 53.0229% |
+| luma/1440x900/section-cover.png | 331 × 330 | 331 × 330 | 497 | 107,907 | 0 | 0.4550% |
 | luma/1440x900/section-footer.png | 1425 × 135 | 1425 × 135 | 0 | 0 | 0 | 0.0000% |
 | luma/1440x900/section-hosts.png | 331 × 226 | 331 × 226 | 3,752 | 72,776 | 0 | 5.0156% |
 | luma/1440x900/section-location.png | 567 × 303 | 567 × 303 | 12,918 | 168,895 | 0 | 7.5192% |
@@ -81,7 +81,7 @@ Pixelmatch threshold 0.1. Antialiasing differences are included. Red marks chang
 | luma/390x844/full-page.png | 390 × 2172 | 390 × 2171 | 135,459 | 413,792 | 390 | 15.9913% |
 | luma/390x844/section-about.png | 343 × 387 | 343 × 387 | 9,534 | 29,226 | 0 | 7.1824% |
 | luma/390x844/section-attendance.png | 343 × 101 | 343 × 100 | 1,858 | 4,625 | 343 | 5.3633% |
-| luma/390x844/section-cover.png | 345 × 345 | 343 × 343 | 62,467 | 118,855 | 1,376 | 52.4823% |
+| luma/390x844/section-cover.png | 343 × 343 | 343 × 343 | 379 | 116,813 | 0 | 0.3221% |
 | luma/390x844/section-footer.png | 375 × 183 | 375 × 183 | 0 | 0 | 0 | 0.0000% |
 | luma/390x844/section-hosts.png | 343 × 227 | 343 × 227 | 260 | 2,843 | 0 | 0.3339% |
 | luma/390x844/section-location.png | 343 × 303 | 343 × 303 | 69,240 | 70,007 | 0 | 66.6224% |
@@ -93,7 +93,7 @@ Pixelmatch threshold 0.1. Antialiasing differences are included. Red marks chang
 | luma/768x1024/full-page.png | 768 × 1309 | 768 × 1309 | 226,284 | 801,806 | 0 | 22.5088% |
 | luma/768x1024/section-about.png | 417 × 363 | 417 × 363 | 57,972 | 149,464 | 0 | 38.2980% |
 | luma/768x1024/section-attendance.png | 280 × 121 | 280 × 120 | 16,866 | 33,874 | 280 | 49.7816% |
-| luma/768x1024/section-cover.png | 282 × 282 | 280 × 280 | 44,349 | 79,458 | 1,124 | 55.7681% |
+| luma/768x1024/section-cover.png | 280 × 280 | 280 × 280 | 656 | 77,830 | 0 | 0.8367% |
 | luma/768x1024/section-footer.png | 753 × 151 | 753 × 151 | 0 | 0 | 0 | 0.0000% |
 | luma/768x1024/section-hosts.png | 280 × 226 | 280 × 226 | 25,290 | 62,884 | 0 | 39.9652% |
 | luma/768x1024/section-location.png | 417 × 303 | 417 × 303 | 23,993 | 124,814 | 0 | 18.9892% |

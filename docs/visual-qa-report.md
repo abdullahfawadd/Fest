@@ -46,6 +46,8 @@ Playwright captured 20 reference and 20 local route and viewport combinations. T
 
 The two FlowFest viewport pairs have exact RGBA equality. The Luma comparisons include separately timed confetti frames and the live map where it is visible. Both participate in the reported mismatch. See the complete report for full-page and section results.
 
+Luma's cover comparison selects the foreground photo by its wrapper. The reference exposes the decorative backing image under the same accessible name, and the two layers have different bounds. The cover crops use the foreground bounds measured in Chromium and the original full-page PNGs. Their mismatch is 0.3221% at 390 px, 0.8367% at 768 px, and 0.4550% at 1440 px. Viewport and full-page results keep the complete composition. In total, 58 of 94 screenshot pairs met the 2% target.
+
 ## Refinement
 
 The first Luma render used default font and text colours and let a decorative SVG widen the document. At 320, 360, 375 and 390 px, the extra scroll width measured 262, 222, 207 and 192 px, respectively. Restoring the reference theme and limiting the SVG fixed the overflow. Against the same 390 × 844 reference viewport frame, Pixelmatch dropped from 47.6048% before these changes to 22.9533% after the theme and SVG fixes. Matching the scrollbar colour and date formatting brought the final capture to 18.8237%. Animation frame timing also varies between captures.

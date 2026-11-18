@@ -1031,20 +1031,20 @@
     {
       "path": "luma/1440x900/section-cover.png",
       "reference": {
-        "width": 333,
-        "height": 332
+        "width": 331,
+        "height": 330
       },
       "local": {
         "width": 331,
         "height": 330
       },
-      "changedPixels": 57294,
-      "unpairedPixels": 1326,
-      "mismatchedPixels": 58620,
-      "exactMismatchedPixels": 110401,
-      "comparedPixels": 110556,
-      "mismatchPercent": 53.0229,
-      "meetsTarget": false
+      "changedPixels": 497,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 497,
+      "exactMismatchedPixels": 107907,
+      "comparedPixels": 109230,
+      "mismatchPercent": 0.455,
+      "meetsTarget": true
     },
     {
       "path": "luma/1440x900/section-footer.png",
@@ -1355,20 +1355,20 @@
     {
       "path": "luma/390x844/section-cover.png",
       "reference": {
-        "width": 345,
-        "height": 345
+        "width": 343,
+        "height": 343
       },
       "local": {
         "width": 343,
         "height": 343
       },
-      "changedPixels": 61091,
-      "unpairedPixels": 1376,
-      "mismatchedPixels": 62467,
-      "exactMismatchedPixels": 118855,
-      "comparedPixels": 119025,
-      "mismatchPercent": 52.4823,
-      "meetsTarget": false
+      "changedPixels": 379,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 379,
+      "exactMismatchedPixels": 116813,
+      "comparedPixels": 117649,
+      "mismatchPercent": 0.3221,
+      "meetsTarget": true
     },
     {
       "path": "luma/390x844/section-footer.png",
@@ -1571,20 +1571,20 @@
     {
       "path": "luma/768x1024/section-cover.png",
       "reference": {
-        "width": 282,
-        "height": 282
+        "width": 280,
+        "height": 280
       },
       "local": {
         "width": 280,
         "height": 280
       },
-      "changedPixels": 43225,
-      "unpairedPixels": 1124,
-      "mismatchedPixels": 44349,
-      "exactMismatchedPixels": 79458,
-      "comparedPixels": 79524,
-      "mismatchPercent": 55.7681,
-      "meetsTarget": false
+      "changedPixels": 656,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 656,
+      "exactMismatchedPixels": 77830,
+      "comparedPixels": 78400,
+      "mismatchPercent": 0.8367,
+      "meetsTarget": true
     },
     {
       "path": "luma/768x1024/section-footer.png",
