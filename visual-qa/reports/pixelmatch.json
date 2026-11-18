@@ -1,0 +1,1701 @@
+{
+  "threshold": 0.1,
+  "targetPercent": 2,
+  "comparisons": [
+    {
+      "path": "flowfest/1024x768/full-page.png",
+      "reference": {
+        "width": 1024,
+        "height": 7542
+      },
+      "local": {
+        "width": 1024,
+        "height": 7542
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 7723008,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/1024x768/viewport.png",
+      "reference": {
+        "width": 1024,
+        "height": 768
+      },
+      "local": {
+        "width": 1024,
+        "height": 768
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 786432,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/1280x800/full-page.png",
+      "reference": {
+        "width": 1280,
+        "height": 9256
+      },
+      "local": {
+        "width": 1280,
+        "height": 9256
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 11847680,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/1280x800/viewport.png",
+      "reference": {
+        "width": 1280,
+        "height": 800
+      },
+      "local": {
+        "width": 1280,
+        "height": 800
+      },
+      "changedPixels": 123,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 123,
+      "exactMismatchedPixels": 2149,
+      "comparedPixels": 1024000,
+      "mismatchPercent": 0.012,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/1440x900/full-page.png",
+      "reference": {
+        "width": 1440,
+        "height": 10425
+      },
+      "local": {
+        "width": 1440,
+        "height": 10425
+      },
+      "changedPixels": 25,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 25,
+      "exactMismatchedPixels": 50,
+      "comparedPixels": 15012000,
+      "mismatchPercent": 0.0002,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/1440x900/section-about.png",
+      "reference": {
+        "width": 1440,
+        "height": 935
+      },
+      "local": {
+        "width": 1440,
+        "height": 935
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 1346400,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/1440x900/section-activities.png",
+      "reference": {
+        "width": 1440,
+        "height": 577
+      },
+      "local": {
+        "width": 1440,
+        "height": 577
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 830880,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/1440x900/section-community.png",
+      "reference": {
+        "width": 1440,
+        "height": 619
+      },
+      "local": {
+        "width": 1440,
+        "height": 619
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 891360,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/1440x900/section-faq.png",
+      "reference": {
+        "width": 1440,
+        "height": 867
+      },
+      "local": {
+        "width": 1440,
+        "height": 867
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 1248480,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/1440x900/section-footer.png",
+      "reference": {
+        "width": 1440,
+        "height": 502
+      },
+      "local": {
+        "width": 1440,
+        "height": 502
+      },
+      "changedPixels": 25,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 25,
+      "exactMismatchedPixels": 50,
+      "comparedPixels": 722880,
+      "mismatchPercent": 0.0035,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/1440x900/section-hero.png",
+      "reference": {
+        "width": 1440,
+        "height": 1388
+      },
+      "local": {
+        "width": 1440,
+        "height": 1388
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 1998720,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/1440x900/section-speakers.png",
+      "reference": {
+        "width": 1440,
+        "height": 1760
+      },
+      "local": {
+        "width": 1440,
+        "height": 1760
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 2534400,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/1440x900/section-sponsors.png",
+      "reference": {
+        "width": 1440,
+        "height": 97
+      },
+      "local": {
+        "width": 1440,
+        "height": 97
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 139680,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/1440x900/section-testimonials.png",
+      "reference": {
+        "width": 1440,
+        "height": 3010
+      },
+      "local": {
+        "width": 1440,
+        "height": 3010
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 4334400,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/1440x900/section-tickets.png",
+      "reference": {
+        "width": 1440,
+        "height": 783
+      },
+      "local": {
+        "width": 1440,
+        "height": 783
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 1127520,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/1440x900/viewport.png",
+      "reference": {
+        "width": 1440,
+        "height": 900
+      },
+      "local": {
+        "width": 1440,
+        "height": 900
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 1296000,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/1920x1080/full-page.png",
+      "reference": {
+        "width": 1920,
+        "height": 13762
+      },
+      "local": {
+        "width": 1920,
+        "height": 13762
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 26423040,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/1920x1080/viewport.png",
+      "reference": {
+        "width": 1920,
+        "height": 1080
+      },
+      "local": {
+        "width": 1920,
+        "height": 1080
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 2073600,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/320x700/full-page.png",
+      "reference": {
+        "width": 320,
+        "height": 10624
+      },
+      "local": {
+        "width": 320,
+        "height": 10624
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 3399680,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/320x700/viewport.png",
+      "reference": {
+        "width": 320,
+        "height": 700
+      },
+      "local": {
+        "width": 320,
+        "height": 700
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 224000,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/360x800/full-page.png",
+      "reference": {
+        "width": 360,
+        "height": 11956
+      },
+      "local": {
+        "width": 360,
+        "height": 11956
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 4304160,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/360x800/viewport.png",
+      "reference": {
+        "width": 360,
+        "height": 800
+      },
+      "local": {
+        "width": 360,
+        "height": 800
+      },
+      "changedPixels": 24,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 24,
+      "exactMismatchedPixels": 21851,
+      "comparedPixels": 288000,
+      "mismatchPercent": 0.0083,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/375x812/full-page.png",
+      "reference": {
+        "width": 375,
+        "height": 12434
+      },
+      "local": {
+        "width": 375,
+        "height": 12434
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 4662750,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/375x812/viewport.png",
+      "reference": {
+        "width": 375,
+        "height": 812
+      },
+      "local": {
+        "width": 375,
+        "height": 812
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 304500,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/390x844/full-page.png",
+      "reference": {
+        "width": 390,
+        "height": 12959
+      },
+      "local": {
+        "width": 390,
+        "height": 12959
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 5054010,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/390x844/section-about.png",
+      "reference": {
+        "width": 390,
+        "height": 1266
+      },
+      "local": {
+        "width": 390,
+        "height": 1266
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 493740,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/390x844/section-activities.png",
+      "reference": {
+        "width": 390,
+        "height": 869
+      },
+      "local": {
+        "width": 390,
+        "height": 869
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 338910,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/390x844/section-community.png",
+      "reference": {
+        "width": 390,
+        "height": 1181
+      },
+      "local": {
+        "width": 390,
+        "height": 1181
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 460590,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/390x844/section-faq.png",
+      "reference": {
+        "width": 390,
+        "height": 1192
+      },
+      "local": {
+        "width": 390,
+        "height": 1192
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 464880,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/390x844/section-footer.png",
+      "reference": {
+        "width": 390,
+        "height": 519
+      },
+      "local": {
+        "width": 390,
+        "height": 519
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 202410,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/390x844/section-hero.png",
+      "reference": {
+        "width": 390,
+        "height": 1030
+      },
+      "local": {
+        "width": 390,
+        "height": 1030
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 401700,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/390x844/section-speakers.png",
+      "reference": {
+        "width": 390,
+        "height": 3735
+      },
+      "local": {
+        "width": 390,
+        "height": 3735
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 1456650,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/390x844/section-sponsors.png",
+      "reference": {
+        "width": 390,
+        "height": 97
+      },
+      "local": {
+        "width": 390,
+        "height": 97
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 37830,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/390x844/section-testimonials.png",
+      "reference": {
+        "width": 390,
+        "height": 2413
+      },
+      "local": {
+        "width": 390,
+        "height": 2413
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 941070,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/390x844/section-tickets.png",
+      "reference": {
+        "width": 390,
+        "height": 834
+      },
+      "local": {
+        "width": 390,
+        "height": 834
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 325260,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/390x844/viewport.png",
+      "reference": {
+        "width": 390,
+        "height": 844
+      },
+      "local": {
+        "width": 390,
+        "height": 844
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 329160,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/430x932/full-page.png",
+      "reference": {
+        "width": 430,
+        "height": 14285
+      },
+      "local": {
+        "width": 430,
+        "height": 14285
+      },
+      "changedPixels": 6,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 6,
+      "exactMismatchedPixels": 6,
+      "comparedPixels": 6142550,
+      "mismatchPercent": 0.0001,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/430x932/viewport.png",
+      "reference": {
+        "width": 430,
+        "height": 932
+      },
+      "local": {
+        "width": 430,
+        "height": 932
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 400760,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/768x1024/full-page.png",
+      "reference": {
+        "width": 768,
+        "height": 11594
+      },
+      "local": {
+        "width": 768,
+        "height": 11594
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 8904192,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/768x1024/section-about.png",
+      "reference": {
+        "width": 768,
+        "height": 1324
+      },
+      "local": {
+        "width": 768,
+        "height": 1324
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 1016832,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/768x1024/section-activities.png",
+      "reference": {
+        "width": 768,
+        "height": 821
+      },
+      "local": {
+        "width": 768,
+        "height": 821
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 630528,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/768x1024/section-community.png",
+      "reference": {
+        "width": 768,
+        "height": 1017
+      },
+      "local": {
+        "width": 768,
+        "height": 1017
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 781056,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/768x1024/section-faq.png",
+      "reference": {
+        "width": 768,
+        "height": 1602
+      },
+      "local": {
+        "width": 768,
+        "height": 1602
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 1230336,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/768x1024/section-footer.png",
+      "reference": {
+        "width": 768,
+        "height": 543
+      },
+      "local": {
+        "width": 768,
+        "height": 543
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 417024,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/768x1024/section-hero.png",
+      "reference": {
+        "width": 768,
+        "height": 1535
+      },
+      "local": {
+        "width": 768,
+        "height": 1535
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 1178880,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/768x1024/section-speakers.png",
+      "reference": {
+        "width": 768,
+        "height": 1990
+      },
+      "local": {
+        "width": 768,
+        "height": 1990
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 1528320,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/768x1024/section-sponsors.png",
+      "reference": {
+        "width": 768,
+        "height": 89
+      },
+      "local": {
+        "width": 768,
+        "height": 89
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 68352,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/768x1024/section-testimonials.png",
+      "reference": {
+        "width": 768,
+        "height": 2111
+      },
+      "local": {
+        "width": 768,
+        "height": 2111
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 1621248,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/768x1024/section-tickets.png",
+      "reference": {
+        "width": 768,
+        "height": 778
+      },
+      "local": {
+        "width": 768,
+        "height": 778
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 597504,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "flowfest/768x1024/viewport.png",
+      "reference": {
+        "width": 768,
+        "height": 1024
+      },
+      "local": {
+        "width": 768,
+        "height": 1024
+      },
+      "changedPixels": 255564,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 255564,
+      "exactMismatchedPixels": 379400,
+      "comparedPixels": 786432,
+      "mismatchPercent": 32.4966,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/1024x768/full-page.png",
+      "reference": {
+        "width": 1024,
+        "height": 1271
+      },
+      "local": {
+        "width": 1024,
+        "height": 1271
+      },
+      "changedPixels": 199996,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 199996,
+      "exactMismatchedPixels": 877554,
+      "comparedPixels": 1301504,
+      "mismatchPercent": 15.3665,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/1024x768/viewport.png",
+      "reference": {
+        "width": 1024,
+        "height": 768
+      },
+      "local": {
+        "width": 1024,
+        "height": 768
+      },
+      "changedPixels": 64671,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 64671,
+      "exactMismatchedPixels": 738941,
+      "comparedPixels": 786432,
+      "mismatchPercent": 8.2233,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/1280x800/full-page.png",
+      "reference": {
+        "width": 1280,
+        "height": 1271
+      },
+      "local": {
+        "width": 1280,
+        "height": 1271
+      },
+      "changedPixels": 255383,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 255383,
+      "exactMismatchedPixels": 1108097,
+      "comparedPixels": 1626880,
+      "mismatchPercent": 15.6977,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/1280x800/viewport.png",
+      "reference": {
+        "width": 1280,
+        "height": 800
+      },
+      "local": {
+        "width": 1280,
+        "height": 800
+      },
+      "changedPixels": 94932,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 94932,
+      "exactMismatchedPixels": 955844,
+      "comparedPixels": 1024000,
+      "mismatchPercent": 9.2707,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/1440x900/full-page.png",
+      "reference": {
+        "width": 1440,
+        "height": 1271
+      },
+      "local": {
+        "width": 1440,
+        "height": 1271
+      },
+      "changedPixels": 175057,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 175057,
+      "exactMismatchedPixels": 1350897,
+      "comparedPixels": 1830240,
+      "mismatchPercent": 9.5647,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/1440x900/section-about.png",
+      "reference": {
+        "width": 567,
+        "height": 315
+      },
+      "local": {
+        "width": 567,
+        "height": 315
+      },
+      "changedPixels": 5871,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 5871,
+      "exactMismatchedPixels": 170052,
+      "comparedPixels": 178605,
+      "mismatchPercent": 3.2871,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/1440x900/section-attendance.png",
+      "reference": {
+        "width": 331,
+        "height": 100
+      },
+      "local": {
+        "width": 331,
+        "height": 99
+      },
+      "changedPixels": 2727,
+      "unpairedPixels": 331,
+      "mismatchedPixels": 3058,
+      "exactMismatchedPixels": 33074,
+      "comparedPixels": 33100,
+      "mismatchPercent": 9.2387,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/1440x900/section-cover.png",
+      "reference": {
+        "width": 333,
+        "height": 332
+      },
+      "local": {
+        "width": 331,
+        "height": 330
+      },
+      "changedPixels": 57294,
+      "unpairedPixels": 1326,
+      "mismatchedPixels": 58620,
+      "exactMismatchedPixels": 110401,
+      "comparedPixels": 110556,
+      "mismatchPercent": 53.0229,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/1440x900/section-footer.png",
+      "reference": {
+        "width": 1425,
+        "height": 135
+      },
+      "local": {
+        "width": 1425,
+        "height": 135
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 192375,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "luma/1440x900/section-hosts.png",
+      "reference": {
+        "width": 331,
+        "height": 226
+      },
+      "local": {
+        "width": 331,
+        "height": 226
+      },
+      "changedPixels": 3752,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 3752,
+      "exactMismatchedPixels": 72776,
+      "comparedPixels": 74806,
+      "mismatchPercent": 5.0156,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/1440x900/section-location.png",
+      "reference": {
+        "width": 567,
+        "height": 303
+      },
+      "local": {
+        "width": 567,
+        "height": 303
+      },
+      "changedPixels": 12918,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 12918,
+      "exactMismatchedPixels": 168895,
+      "comparedPixels": 171801,
+      "mismatchPercent": 7.5192,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/1440x900/section-tickets.png",
+      "reference": {
+        "width": 533,
+        "height": 104
+      },
+      "local": {
+        "width": 567,
+        "height": 123
+      },
+      "changedPixels": 6599,
+      "unpairedPixels": 14309,
+      "mismatchedPixels": 20908,
+      "exactMismatchedPixels": 66144,
+      "comparedPixels": 69741,
+      "mismatchPercent": 29.9795,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/1440x900/section-title.png",
+      "reference": {
+        "width": 261,
+        "height": 56
+      },
+      "local": {
+        "width": 261,
+        "height": 56
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 11192,
+      "comparedPixels": 14616,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "luma/1440x900/viewport.png",
+      "reference": {
+        "width": 1440,
+        "height": 900
+      },
+      "local": {
+        "width": 1440,
+        "height": 900
+      },
+      "changedPixels": 121330,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 121330,
+      "exactMismatchedPixels": 1216218,
+      "comparedPixels": 1296000,
+      "mismatchPercent": 9.3619,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/1920x1080/full-page.png",
+      "reference": {
+        "width": 1920,
+        "height": 1271
+      },
+      "local": {
+        "width": 1920,
+        "height": 1271
+      },
+      "changedPixels": 223220,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 223220,
+      "exactMismatchedPixels": 2033060,
+      "comparedPixels": 2440320,
+      "mismatchPercent": 9.1472,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/1920x1080/viewport.png",
+      "reference": {
+        "width": 1920,
+        "height": 1080
+      },
+      "local": {
+        "width": 1920,
+        "height": 1080
+      },
+      "changedPixels": 218742,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 218742,
+      "exactMismatchedPixels": 1974117,
+      "comparedPixels": 2073600,
+      "mismatchPercent": 10.5489,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/320x700/full-page.png",
+      "reference": {
+        "width": 320,
+        "height": 2171
+      },
+      "local": {
+        "width": 320,
+        "height": 2170
+      },
+      "changedPixels": 103942,
+      "unpairedPixels": 320,
+      "mismatchedPixels": 104262,
+      "exactMismatchedPixels": 295815,
+      "comparedPixels": 694720,
+      "mismatchPercent": 15.0078,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/320x700/viewport.png",
+      "reference": {
+        "width": 320,
+        "height": 700
+      },
+      "local": {
+        "width": 320,
+        "height": 700
+      },
+      "changedPixels": 52498,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 52498,
+      "exactMismatchedPixels": 211133,
+      "comparedPixels": 224000,
+      "mismatchPercent": 23.4366,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/360x800/full-page.png",
+      "reference": {
+        "width": 360,
+        "height": 2187
+      },
+      "local": {
+        "width": 360,
+        "height": 2186
+      },
+      "changedPixels": 123056,
+      "unpairedPixels": 360,
+      "mismatchedPixels": 123416,
+      "exactMismatchedPixels": 367181,
+      "comparedPixels": 787320,
+      "mismatchPercent": 15.6755,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/360x800/viewport.png",
+      "reference": {
+        "width": 360,
+        "height": 800
+      },
+      "local": {
+        "width": 360,
+        "height": 800
+      },
+      "changedPixels": 60222,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 60222,
+      "exactMismatchedPixels": 273258,
+      "comparedPixels": 288000,
+      "mismatchPercent": 20.9104,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/375x812/full-page.png",
+      "reference": {
+        "width": 375,
+        "height": 2157
+      },
+      "local": {
+        "width": 375,
+        "height": 2156
+      },
+      "changedPixels": 128361,
+      "unpairedPixels": 375,
+      "mismatchedPixels": 128736,
+      "exactMismatchedPixels": 386609,
+      "comparedPixels": 808875,
+      "mismatchPercent": 15.9154,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/375x812/viewport.png",
+      "reference": {
+        "width": 375,
+        "height": 812
+      },
+      "local": {
+        "width": 375,
+        "height": 812
+      },
+      "changedPixels": 67581,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 67581,
+      "exactMismatchedPixels": 289886,
+      "comparedPixels": 304500,
+      "mismatchPercent": 22.1941,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/390x844/full-page.png",
+      "reference": {
+        "width": 390,
+        "height": 2172
+      },
+      "local": {
+        "width": 390,
+        "height": 2171
+      },
+      "changedPixels": 135069,
+      "unpairedPixels": 390,
+      "mismatchedPixels": 135459,
+      "exactMismatchedPixels": 413792,
+      "comparedPixels": 847080,
+      "mismatchPercent": 15.9913,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/390x844/section-about.png",
+      "reference": {
+        "width": 343,
+        "height": 387
+      },
+      "local": {
+        "width": 343,
+        "height": 387
+      },
+      "changedPixels": 9534,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 9534,
+      "exactMismatchedPixels": 29226,
+      "comparedPixels": 132741,
+      "mismatchPercent": 7.1824,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/390x844/section-attendance.png",
+      "reference": {
+        "width": 343,
+        "height": 101
+      },
+      "local": {
+        "width": 343,
+        "height": 100
+      },
+      "changedPixels": 1515,
+      "unpairedPixels": 343,
+      "mismatchedPixels": 1858,
+      "exactMismatchedPixels": 4625,
+      "comparedPixels": 34643,
+      "mismatchPercent": 5.3633,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/390x844/section-cover.png",
+      "reference": {
+        "width": 345,
+        "height": 345
+      },
+      "local": {
+        "width": 343,
+        "height": 343
+      },
+      "changedPixels": 61091,
+      "unpairedPixels": 1376,
+      "mismatchedPixels": 62467,
+      "exactMismatchedPixels": 118855,
+      "comparedPixels": 119025,
+      "mismatchPercent": 52.4823,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/390x844/section-footer.png",
+      "reference": {
+        "width": 375,
+        "height": 183
+      },
+      "local": {
+        "width": 375,
+        "height": 183
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 68625,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "luma/390x844/section-hosts.png",
+      "reference": {
+        "width": 343,
+        "height": 227
+      },
+      "local": {
+        "width": 343,
+        "height": 227
+      },
+      "changedPixels": 260,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 260,
+      "exactMismatchedPixels": 2843,
+      "comparedPixels": 77861,
+      "mismatchPercent": 0.3339,
+      "meetsTarget": true
+    },
+    {
+      "path": "luma/390x844/section-location.png",
+      "reference": {
+        "width": 343,
+        "height": 303
+      },
+      "local": {
+        "width": 343,
+        "height": 303
+      },
+      "changedPixels": 69240,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 69240,
+      "exactMismatchedPixels": 70007,
+      "comparedPixels": 103929,
+      "mismatchPercent": 66.6224,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/390x844/section-tickets.png",
+      "reference": {
+        "width": 309,
+        "height": 125
+      },
+      "local": {
+        "width": 343,
+        "height": 144
+      },
+      "changedPixels": 20274,
+      "unpairedPixels": 10767,
+      "mismatchedPixels": 31041,
+      "exactMismatchedPixels": 49321,
+      "comparedPixels": 49392,
+      "mismatchPercent": 62.8462,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/390x844/section-title.png",
+      "reference": {
+        "width": 152,
+        "height": 34
+      },
+      "local": {
+        "width": 152,
+        "height": 34
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 4493,
+      "comparedPixels": 5168,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "luma/390x844/viewport.png",
+      "reference": {
+        "width": 390,
+        "height": 844
+      },
+      "local": {
+        "width": 390,
+        "height": 844
+      },
+      "changedPixels": 61960,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 61960,
+      "exactMismatchedPixels": 310177,
+      "comparedPixels": 329160,
+      "mismatchPercent": 18.8237,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/430x932/full-page.png",
+      "reference": {
+        "width": 430,
+        "height": 2188
+      },
+      "local": {
+        "width": 430,
+        "height": 2187
+      },
+      "changedPixels": 154054,
+      "unpairedPixels": 430,
+      "mismatchedPixels": 154484,
+      "exactMismatchedPixels": 492991,
+      "comparedPixels": 940840,
+      "mismatchPercent": 16.4198,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/430x932/viewport.png",
+      "reference": {
+        "width": 430,
+        "height": 932
+      },
+      "local": {
+        "width": 430,
+        "height": 932
+      },
+      "changedPixels": 96107,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 96107,
+      "exactMismatchedPixels": 380442,
+      "comparedPixels": 400760,
+      "mismatchPercent": 23.9812,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/768x1024/full-page.png",
+      "reference": {
+        "width": 768,
+        "height": 1309
+      },
+      "local": {
+        "width": 768,
+        "height": 1309
+      },
+      "changedPixels": 226284,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 226284,
+      "exactMismatchedPixels": 801806,
+      "comparedPixels": 1005312,
+      "mismatchPercent": 22.5088,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/768x1024/section-about.png",
+      "reference": {
+        "width": 417,
+        "height": 363
+      },
+      "local": {
+        "width": 417,
+        "height": 363
+      },
+      "changedPixels": 57972,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 57972,
+      "exactMismatchedPixels": 149464,
+      "comparedPixels": 151371,
+      "mismatchPercent": 38.298,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/768x1024/section-attendance.png",
+      "reference": {
+        "width": 280,
+        "height": 121
+      },
+      "local": {
+        "width": 280,
+        "height": 120
+      },
+      "changedPixels": 16586,
+      "unpairedPixels": 280,
+      "mismatchedPixels": 16866,
+      "exactMismatchedPixels": 33874,
+      "comparedPixels": 33880,
+      "mismatchPercent": 49.7816,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/768x1024/section-cover.png",
+      "reference": {
+        "width": 282,
+        "height": 282
+      },
+      "local": {
+        "width": 280,
+        "height": 280
+      },
+      "changedPixels": 43225,
+      "unpairedPixels": 1124,
+      "mismatchedPixels": 44349,
+      "exactMismatchedPixels": 79458,
+      "comparedPixels": 79524,
+      "mismatchPercent": 55.7681,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/768x1024/section-footer.png",
+      "reference": {
+        "width": 753,
+        "height": 151
+      },
+      "local": {
+        "width": 753,
+        "height": 151
+      },
+      "changedPixels": 0,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 0,
+      "exactMismatchedPixels": 0,
+      "comparedPixels": 113703,
+      "mismatchPercent": 0,
+      "meetsTarget": true
+    },
+    {
+      "path": "luma/768x1024/section-hosts.png",
+      "reference": {
+        "width": 280,
+        "height": 226
+      },
+      "local": {
+        "width": 280,
+        "height": 226
+      },
+      "changedPixels": 25290,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 25290,
+      "exactMismatchedPixels": 62884,
+      "comparedPixels": 63280,
+      "mismatchPercent": 39.9652,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/768x1024/section-location.png",
+      "reference": {
+        "width": 417,
+        "height": 303
+      },
+      "local": {
+        "width": 417,
+        "height": 303
+      },
+      "changedPixels": 23993,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 23993,
+      "exactMismatchedPixels": 124814,
+      "comparedPixels": 126351,
+      "mismatchPercent": 18.9892,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/768x1024/section-tickets.png",
+      "reference": {
+        "width": 383,
+        "height": 104
+      },
+      "local": {
+        "width": 417,
+        "height": 123
+      },
+      "changedPixels": 15383,
+      "unpairedPixels": 11459,
+      "mismatchedPixels": 26842,
+      "exactMismatchedPixels": 51135,
+      "comparedPixels": 51291,
+      "mismatchPercent": 52.3328,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/768x1024/section-title.png",
+      "reference": {
+        "width": 195,
+        "height": 42
+      },
+      "local": {
+        "width": 195,
+        "height": 42
+      },
+      "changedPixels": 177,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 177,
+      "exactMismatchedPixels": 7101,
+      "comparedPixels": 8190,
+      "mismatchPercent": 2.1612,
+      "meetsTarget": false
+    },
+    {
+      "path": "luma/768x1024/viewport.png",
+      "reference": {
+        "width": 768,
+        "height": 1024
+      },
+      "local": {
+        "width": 768,
+        "height": 1024
+      },
+      "changedPixels": 123037,
+      "unpairedPixels": 0,
+      "mismatchedPixels": 123037,
+      "exactMismatchedPixels": 699830,
+      "comparedPixels": 786432,
+      "mismatchPercent": 15.645,
+      "meetsTarget": false
+    }
+  ],
+  "missingLocal": [],
+  "missingReference": [],
+  "missingBoth": []
+}

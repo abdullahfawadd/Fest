@@ -14,3 +14,10 @@ export const VIEWPORTS = [
 export function viewportKey(viewport: { width: number; height: number }) {
   return `${viewport.width}x${viewport.height}`;
 }
+
+export const SECTION_VIEWPORT_WIDTHS = new Set<number>([390, 768, 1440]);
+
+export const VISUAL_SECTIONS = {
+  flowfest: ['hero', 'sponsors', 'about', 'speakers', 'activities', 'community', 'testimonials', 'faq', 'tickets', 'footer'],
+  luma: ['cover', 'hosts', 'attendance', 'title', 'tickets', 'about', 'location', 'footer'],
+} as const;

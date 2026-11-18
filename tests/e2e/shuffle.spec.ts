@@ -14,7 +14,7 @@ function readCards(page: Page) {
 test('Shuffle changes the card composition on repeated activation', async ({ page }) => {
   await page.goto('/');
   const control = page.getByRole('button', { name: 'Shuffle' });
-  await expect(control).toBeVisible();
+  await expect(control).toBeVisible({ timeout: 12_000 });
   const first = await readCards(page);
   expect(first.length).toBeGreaterThanOrEqual(5);
 

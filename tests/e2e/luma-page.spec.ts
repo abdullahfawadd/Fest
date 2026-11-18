@@ -3,7 +3,7 @@ import { expect, test } from '@playwright/test';
 const officialEvent = 'https://luma.com/aq1a429h';
 
 test('event details, cover, hosts, location and sold-out message are rendered', async ({ page }) => {
-  await page.goto('/tickets');
+  await page.goto('/tickets', { waitUntil: 'domcontentloaded' });
   await expect(page.getByRole('heading', { level: 1, name: /FlowFest ['’]25/i })).toBeVisible();
 
   const cover = page.getByRole('img', { name: /cover image for flowfest/i }).first();
@@ -15,7 +15,9 @@ test('event details, cover, hosts, location and sold-out message are rendered', 
     const host = page.getByRole('link', { name, exact: true });
     await expect(host.first()).toBeVisible();
   }
-  await expect(page.getByText('Hosted By', { exact: true }).first()).toBeVisible();
+  const hosts = page.getByText('Hosted By', { exact: true });
+  await expect(hosts).toHaveCount(2);
+  await expect(hosts.filter({ visible: true })).toBeVisible();
   await expect(page.getByText('120 Went', { exact: true }).first()).toBeVisible();
   await expect(page.getByText(/Dennis Snellenberg, Lizzie Curtis and 118 others/).first()).toBeVisible();
   await expect(page.getByText('Get Tickets', { exact: true })).toBeVisible();
@@ -29,7 +31,7 @@ test('event details, cover, hosts, location and sold-out message are rendered', 
 });
 
 test('event, account, map and footer actions target official destinations', async ({ page }) => {
-  await page.goto('/tickets');
+  await page.goto('/tickets', { waitUntil: 'domcontentloaded' });
   await expect(page.getByRole('link', { name: 'Discover Events' })).toHaveAttribute('href', 'https://luma.com/discover');
   await expect(page.getByRole('link', { name: 'Sign In' })).toHaveAttribute('href', /^https:\/\/luma\.com\//);
   await expect(page.getByRole('link', { name: 'Contact the Host' }).first()).toHaveAttribute('href', officialEvent);
@@ -44,8 +46,8 @@ test('event, account, map and footer actions target official destinations', asyn
 
 test('the host and attendee details move into view on mobile', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.goto('/tickets');
-  await expect(page.getByText('Hosted By', { exact: true }).first()).toBeVisible();
+  await page.goto('/tickets', { waitUntil: 'domcontentloaded' });
+  await expect(page.getByText('Hosted By', { exact: true }).filter({ visible: true })).toBeVisible();
   await expect(page.getByRole('link', { name: 'Scott Humphrey', exact: true }).first()).toBeVisible();
-  await expect(page.getByText('120 Went', { exact: true }).first()).toBeVisible();
+  await expect(page.getByText('120 Went', { exact: true }).filter({ visible: true })).toBeVisible();
 });

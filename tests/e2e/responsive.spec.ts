@@ -7,7 +7,9 @@ for (const viewport of VIEWPORTS) {
   for (const route of ['/', '/tickets']) {
     test(`${route} fits ${viewport.name} (${viewportKey(viewport)})`, async ({ page }) => {
       await page.setViewportSize({ width: viewport.width, height: viewport.height });
-      const response = await page.goto(route);
+      const pageErrors: string[] = [];
+      page.on('pageerror', (error) => pageErrors.push(error.message));
+      const response = await page.goto(route, { waitUntil: 'domcontentloaded' });
       expect(response?.ok()).toBe(true);
       await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
 
@@ -24,6 +26,7 @@ for (const viewport of VIEWPORTS) {
         await expect(page.getByRole('button', { name: 'Shuffle' })).toBeVisible();
         await expect(page.getByText('Frequently Asked Questions', { exact: true })).toBeVisible();
       }
+      expect(pageErrors).toEqual([]);
     });
   }
 }

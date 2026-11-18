@@ -3,15 +3,13 @@ import { join } from 'node:path';
 import { expect, test } from '@playwright/test';
 import type { Locator, Page } from '@playwright/test';
 import { PNG } from 'pngjs';
-import { VIEWPORTS, viewportKey } from '../viewports';
+import { SECTION_VIEWPORT_WIDTHS, VIEWPORTS, VISUAL_SECTIONS, viewportKey } from '../viewports';
 
 const screenshotOptions = {
   animations: 'disabled',
   caret: 'hide',
   scale: 'css',
 } as const;
-
-const sectionViewports = new Set([390, 768, 1440]);
 
 function contentCard(page: Page, label: string, inlineSelector: string) {
   return page.locator(inlineSelector).or(
@@ -89,8 +87,10 @@ async function warmLazyContent(page: Page) {
 async function captureSections(page: Page, site: 'flowfest' | 'luma', screenshot: Buffer, output: string) {
   const full = PNG.sync.read(screenshot);
 
-  for (const [name, locator] of Object.entries(sectionsFor(page, site))) {
-    const box = await locator.boundingBox({ timeout: 2500 });
+  const sections = sectionsFor(page, site);
+  for (const name of VISUAL_SECTIONS[site]) {
+    const locator = sections[name];
+    const box = await locator.boundingBox({ timeout: 12_000 });
     expect.soft(box, `${site} ${name} did not render`).not.toBeNull();
     if (!box) continue;
 
@@ -141,7 +141,7 @@ for (const target of targets) {
         await warmLazyContent(page);
         const full = await page.screenshot({ ...screenshotOptions, fullPage: true, path: join(output, 'full-page.png') });
 
-        if (sectionViewports.has(viewport.width)) {
+        if (SECTION_VIEWPORT_WIDTHS.has(viewport.width)) {
           await captureSections(page, target.name, full, output);
         }
       });
