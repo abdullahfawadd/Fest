@@ -15,6 +15,7 @@ test-results/
 visual-qa/reference/
 visual-qa/local/
 visual-qa/diff/
+visual-qa/spot-checks/
 .reanimate/**/reference/
 .reanimate/**/local/
 .reanimate/**/comparison/

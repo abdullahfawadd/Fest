@@ -7,17 +7,18 @@ import '../styles/tickets.css';
 function SourceConfetti() {
   return (
     <picture className="ticket-reference-confetti" aria-hidden="true">
-      <source media="(max-width: 650px)" srcSet="/assets/luma/theme/source-confetti-mobile.png" />
-      <source media="(max-width: 900px)" srcSet="/assets/luma/theme/source-confetti-tablet.png" />
-      <img src="/assets/luma/theme/source-confetti-desktop.png" alt="" />
+      <source media="(max-width: 650px)" srcSet="/assets/luma/theme/source-confetti-mobile.webp" />
+      <source media="(max-width: 900px)" srcSet="/assets/luma/theme/source-confetti-tablet.webp" />
+      <img src="/assets/luma/theme/source-confetti-desktop.webp" alt="" />
     </picture>
   );
 }
 
 export default function TicketsPage() {
   return (
-    <div className="luma-reference theme-root dark">
-      <div className="luma-document">
+    <div className="luma-reference">
+      <div className="theme-root dark">
+        <div className="luma-document">
         <div className="jsx-4084343657 jsx-2489481406 page-wrapper wide-page-wrapper">
           <a href="#main-content" className="jsx-67748f3be722da58 skip-link">{"Skip to Content"}</a>
           <TicketHeader />
@@ -54,6 +55,7 @@ export default function TicketsPage() {
               </div>
             </div>
           </main>
+        </div>
         </div>
       </div>
     </div>

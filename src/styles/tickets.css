@@ -1,5 +1,17 @@
 /* Public event presentation rules used by the authorised FlowFest listing. */
 
+html:has(.luma-reference) {
+  scrollbar-gutter: stable;
+}
+
+.luma-reference {
+  background: #4f1b00;
+}
+
+.luma-reference .theme-root .page-wrapper {
+  background-color: #4f1b00;
+}
+
 .luma-reference :is(.attendance-link, .guests-button) {
   color: inherit;
 }

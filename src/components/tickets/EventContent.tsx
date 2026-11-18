@@ -120,15 +120,14 @@ export function RegistrationStatus() {
   return (
     <div className="jsx-d7a040a961c1d14e liquid-glass rounded-card relative" data-visual-section="tickets">
       <div className="glass-container relative animated">
-        <svg aria-hidden="true" style={{"position":"absolute","width":"566px","height":"122px"} as CSSProperties}>
+        <svg aria-hidden="true" style={{ position: 'absolute', width: '100%', height: '100%' }}>
           <defs>
             <filter id="_R_aadcl8qlam_" colorInterpolationFilters="sRGB">
-              <feImage x="0" y="0" width="566" height="122" result="DISPLACEMENT_MAP" href="blob:https://luma.com/2203256f-9c98-4acc-8392-2f4acc46392e" preserveAspectRatio="none" />
-              <feDisplacementMap in="SourceGraphic" in2="DISPLACEMENT_MAP" scale="141.5121033523088" xChannelSelector="R" yChannelSelector="G" />
+              <feGaussianBlur stdDeviation="1.8" />
             </filter>
           </defs>
         </svg>
-        <div className="glass rounded-card" style={{"position":"relative","overflowX":"hidden","overflowY":"hidden","paddingTop":"","paddingRight":"","paddingBottom":"","paddingLeft":""} as CSSProperties}>
+        <div className="glass rounded-card" style={{ position: 'relative', overflow: 'hidden', padding: '13px 17px' }}>
           <span className="absolute-fill" style={{"backdropFilter":"blur(4px) saturate(125%)","filter":"url(\"#_R_aadcl8qlam_\")"} as CSSProperties} />
           <div className="relative">
             <div className="jsx-ebc17e4706cf462a header">

@@ -2,6 +2,8 @@
 
 Source assets from the approved public event listing. CDN portrait variants are stored locally for presentation.
 
+The three `public/assets/luma/theme/source-confetti-*.webp` files are optimized stills sampled from the official listing’s WebGL canvas at desktop, tablet, and mobile sizes. They preserve actual reference artwork as a static backdrop.
+
 | Local file | Reference URL |
 | --- | --- |
 | `public/assets/fonts/luma/ivy-mode-92efb7.woff2` | [Source](https://use.typekit.net/af/92efb7/0000000000000000774ba8d9/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) |

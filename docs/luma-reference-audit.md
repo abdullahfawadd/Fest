@@ -15,6 +15,7 @@ Inspected the public listing in Chromium at 1440 × 900, 768 × 1024, and 390 ×
 ## Reproduction details
 
 - The layout uses the observed responsive arrangement, source visual styles, native event content, and locally hosted original cover and portrait variants. Individual image and font sources are recorded in [Luma asset provenance](./luma-assets.md).
+- The background uses original frames sampled from the source confetti canvas for mobile, tablet, and desktop. The archived frame remains still, while the reference particles move.
 - Runtime account links point to the official destinations. Sign In uses [Luma’s sign-in page](https://luma.com/signin). The contact, report, and attendee controls open the [official event listing](https://luma.com/aq1a429h).
 - The map preview uses Google Maps’ keyless public embed for the event coordinates. Both location links use the original place ID. Map imagery depends on the third-party embed’s availability.
 - The local sold-out panel is static status information. Tickets, accounts, and payment are handled by the official service.
