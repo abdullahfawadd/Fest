@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+.route-message {
+  font-family: system-ui, sans-serif;
+  margin: 0 auto;
+  max-width: 42rem;
+  padding: 4rem 1.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html,
+  * {
+    scroll-behavior: auto !important;
+  }
+}

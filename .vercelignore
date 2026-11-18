@@ -1,0 +1,8 @@
+.github/
+.reanimate/
+docs/
+scripts/
+tests/
+test-results/
+playwright-report/
+visual-qa/
