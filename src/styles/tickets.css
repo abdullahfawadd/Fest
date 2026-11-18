@@ -1,6 +1,8 @@
 /* Public event presentation rules used by the authorised FlowFest listing. */
 
 html:has(.luma-reference) {
+  background-color: #4f1b00;
+  scrollbar-color: #754932 transparent;
   scrollbar-gutter: stable;
 }
 

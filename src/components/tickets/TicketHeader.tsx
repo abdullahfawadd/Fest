@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react';
 
 function getTime() {
   const now = new Date();
-  const time = new Intl.DateTimeFormat('en-US', { hour: 'numeric', minute: '2-digit' }).format(now);
-  const zone = new Intl.DateTimeFormat('en-US', { timeZoneName: 'shortOffset' })
+  const time = new Intl.DateTimeFormat(undefined, { hour: 'numeric', minute: '2-digit' }).format(now);
+  const zone = new Intl.DateTimeFormat('en-GB', { timeZoneName: 'shortOffset' })
     .formatToParts(now).find((part) => part.type === 'timeZoneName')?.value;
-  return zone ? time + ' ' + zone : time;
+  return zone ? time + ' ' + (zone === 'GMT' ? 'GMT+0' : zone) : time;
 }
 
 function LocalClock() {

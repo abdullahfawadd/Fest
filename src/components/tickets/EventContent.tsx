@@ -1,5 +1,27 @@
 import type { CSSProperties } from 'react';
 
+const eventTimeZone = 'Europe/London';
+const eventStart = new Date('2025-08-08T08:00:00Z');
+const eventEnd = new Date('2025-08-08T15:30:00Z');
+const eventDate = new Intl.DateTimeFormat(undefined, {
+  timeZone: eventTimeZone,
+  weekday: 'long',
+  month: 'long',
+  day: 'numeric',
+  year: 'numeric',
+}).format(eventStart);
+const eventTime = new Intl.DateTimeFormat(undefined, {
+  timeZone: eventTimeZone,
+  hour: 'numeric',
+  minute: '2-digit',
+});
+
+function displayEventTime(date: Date) {
+  return eventTime.formatToParts(date).map(({ type, value }) =>
+    type === 'hour' && /^0[0-9]$/.test(value) ? value.slice(1) : value,
+  ).join('');
+}
+
 export function EventCover() {
   return (
     <div className="jsx-102428b8379b7b14 cover-with-glow flex-center-center">
@@ -76,10 +98,14 @@ export function EventTitle() {
                 </div>
               </div>
               <div className="jsx-100837539 flex-1">
-                <div className="jsx-100837539 title text-ellipses">{"Friday, August 8, 2025"}</div>
+                <div className="jsx-100837539 title text-ellipses">
+                  <time dateTime="2025-08-08">{eventDate}</time>
+                </div>
                 <div className="jsx-100837539 desc text-ellipses">
                   <div className="jsx-24a6e3efa1c3922 flex-center">
-                    <div className="jsx-24a6e3efa1c3922 text-ellipses">{"9:00 AM - 4:30 PM GMT+1"}</div>
+                    <div className="jsx-24a6e3efa1c3922 text-ellipses">
+                      {displayEventTime(eventStart)} - {displayEventTime(eventEnd)} GMT+1
+                    </div>
                   </div>
                 </div>
               </div>
